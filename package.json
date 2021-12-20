@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@playwright/test": "1.18.0-alpha-dec-20-2021",
+    "esbuild": "0.14.1",
+    "playwright": "1.18.0-alpha-dec-20-2021"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "npx playwright test -c playwright.config.mjs"
+  }
+}
